@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a5d75261a081e4eb549e4a666db1512b",
+    "content-hash": "3e9ccfa79be10206cf5b6bf597720ec5",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -1455,6 +1455,52 @@
                 "Bangla DateTime"
             ],
             "time": "2017-08-27T15:14:41+00:00"
+        },
+        {
+            "name": "s1k3/bangla-date",
+            "version": "1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/s1k3/laravel_bangla_date.git",
+                "reference": "09600afdec4026022b5982014bff607d0a3e4764"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/s1k3/laravel_bangla_date/zipball/09600afdec4026022b5982014bff607d0a3e4764",
+                "reference": "09600afdec4026022b5982014bff607d0a3e4764",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "S1K3\\Bangla\\Date\\BanglaDateServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "S1K3\\Bangla\\Date\\": "src/"
+                },
+                "files": [
+                    "src/helper/bangla_date.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Robin Khan",
+                    "email": "sk118420@gmail.com"
+                }
+            ],
+            "description": "Laravel Library for converting English date to corresponding Bangla Date",
+            "time": "2019-03-26T06:45:22+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",

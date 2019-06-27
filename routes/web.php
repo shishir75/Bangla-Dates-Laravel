@@ -12,5 +12,10 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+
+    return bangla_date(time()); // ১৪ আষাঢ় ১৪২৬
+
+//    return bangla_date(time(),"en"); // ২৬ মার্চ ২০১৯
+
+    //return view('welcome');
 });
